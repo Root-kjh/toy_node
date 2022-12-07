@@ -1,0 +1,18 @@
+{
+  "name": "toy_node",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "https://github.com/Root-kjh/toy_node",
+  "author": "root-kjh <wldnro3141@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.14.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.1",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0"
+  }
+}
