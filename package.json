@@ -6,7 +6,8 @@
   "author": "root-kjh <wldnro3141@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "koa": "^2.14.1"
+    "koa": "^2.14.1",
+    "koa-router": "^12.0.0"
   },
   "devDependencies": {
     "eslint": "^8.0.1",
@@ -14,5 +15,9 @@
     "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-n": "^15.0.0",
     "eslint-plugin-promise": "^6.0.0"
+  },
+  "scripts": {
+    "start": "node src",
+    "start:dev": "nodemon --watch src/ src/index.js"
   }
 }
